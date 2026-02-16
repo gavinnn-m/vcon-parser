@@ -1,11 +1,30 @@
 {
-    "summary": "Team reviewed Q1 roadmap. API gateway v2 on track for March with 40% p99 improvement. SSO auth migration blocked on provider; deadline set for Friday before switching to plan B.",
+    "summary": "Alice confirms cloud migration timeline for March 15-17 and assigns tasks: Bob to coordinate with NOC on cutover sequence (sign-off needed by March 1), Carol to document rollback plan by March 10. Team will sync Thursday to review checklist.",
     "action_items": [
-        {"assignee": "Dave Kim", "description": "Escalate SSO provider, get response by Friday or switch to plan B"},
-        {"assignee": "Bob Martinez", "description": "Finalize gateway v2 performance benchmarks for March release"}
+        {
+            "assignee": "Bob Martinez",
+            "description": "Coordinate with NOC on cutover sequence, get sign-off by March 1st"
+        },
+        {
+            "assignee": "Carol Wu",
+            "description": "Document rollback plan including database restore and DNS failback steps by March 10"
+        },
+        {
+            "assignee": "Team",
+            "description": "Thursday 2pm sync to review migration checklist"
+        }
     ],
-    "key_topics": ["API gateway", "SSO migration", "Q1 roadmap"],
-    "key_decisions": ["Friday deadline for SSO provider response", "Plan B fallback if no response"],
-    "category": "engineering",
+    "key_topics": [
+        "cloud migration",
+        "infrastructure cutover",
+        "rollback planning",
+        "NOC coordination"
+    ],
+    "key_decisions": [
+        "Migration window confirmed for March 15-17",
+        "March 1st deadline for NOC sign-off",
+        "March 10th deadline for rollback documentation"
+    ],
+    "category": "infrastructure",
     "source": "gpt-4"
 }

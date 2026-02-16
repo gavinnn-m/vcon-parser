@@ -2,8 +2,11 @@
     "subject": "Re: Cloud Migration Timeline",
     "from": "Alice Chen <alice@example.com>",
     "to": "Bob Martinez <bob@example.com>, Carol Wu <carol@example.com>",
+    "cc": "Dave Kim <dave@example.com>",
     "source": "email_thread",
     "entry_date": "2026-02-15T10:30:00Z",
-    "message_id": "<abc123@example.com>",
-    "content": "Team, the migration window for the east coast cluster is confirmed for March 15-17. Bob, can you coordinate with the NOC on the cutover sequence? Carol, we'll need the rollback plan documented by March 10.\n\nLet's sync Thursday to review the checklist."
+    "message_id": "<abc123@mail.example.com>",
+    "in_reply_to": "<xyz789@mail.example.com>",
+    "references": "<xyz789@mail.example.com> <def456@mail.example.com>",
+    "content": "Team,\n\nThe migration window for the east coast cluster is confirmed for March 15-17. This gives us 4 weeks to finalize the runbooks.\n\nBob, can you coordinate with the NOC on the cutover sequence? We need sign-off from their side by March 1st.\n\nCarol, we'll need the rollback plan documented by March 10. Include the database restore procedure and the DNS failback steps.\n\nLet's sync Thursday at 2pm to review the checklist and make sure we're not missing anything critical.\n\nThanks,\nAlice"
 }

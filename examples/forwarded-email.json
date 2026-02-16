@@ -1,0 +1,11 @@
+{
+    "subject": "Fwd: Vendor Quote for Q4 Hardware Refresh",
+    "from": "Bob Martinez <bob@example.com>",
+    "to": "Alice Chen <alice@example.com>",
+    "source": "forwarded_email",
+    "is_forwarded": true,
+    "entry_date": "2026-02-16T09:15:00Z",
+    "message_id": "<fwd999@mail.example.com>",
+    "user_note": "Alice, this quote came in from TechVendor Inc. Can you review and let me know if the pricing looks reasonable? We need to decide by EOW.\n\n- Bob",
+    "original_content": "Hi Bob,\n\nThank you for your inquiry regarding the Q4 hardware refresh. Please find our quote below:\n\n- 50x Dell PowerEdge R750 servers: $425,000\n- 10x Cisco Nexus 9300 switches: $85,000\n- Installation and configuration: $15,000\n- 3-year support contract: $75,000\n\nTotal: $600,000\n\nThis quote is valid through February 28, 2026. Lead time is 6-8 weeks after PO approval.\n\nPlease let me know if you have any questions.\n\nBest regards,\nSarah Thompson\nSales Engineer\nTechVendor Inc."
+}

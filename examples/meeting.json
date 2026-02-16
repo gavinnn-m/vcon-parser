@@ -1,9 +1,0 @@
-{
-    "title": "Q1 Product Roadmap Review",
-    "from": "Product Team",
-    "source": "meeting_transcript",
-    "entry_date": "2026-02-10T14:00:00Z",
-    "duration_minutes": 45,
-    "participants": ["Alice Chen", "Bob Martinez", "Carol Wu", "Dave Kim"],
-    "content": "Alice: Let's start with the API gateway status. Bob, where are we?\nBob: Gateway v2 is on track for March release. Performance benchmarks look good, 40% improvement on p99 latency.\nCarol: Nice. What about the auth migration?\nDave: We're blocked on the SSO provider. I've escalated but no ETA yet.\nAlice: Let's put a deadline on that. If no response by Friday, we go with plan B."
-}
