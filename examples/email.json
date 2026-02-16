@@ -1,0 +1,9 @@
+{
+    "subject": "Re: Cloud Migration Timeline",
+    "from": "Alice Chen <alice@example.com>",
+    "to": "Bob Martinez <bob@example.com>, Carol Wu <carol@example.com>",
+    "source": "email_thread",
+    "entry_date": "2026-02-15T10:30:00Z",
+    "message_id": "<abc123@example.com>",
+    "content": "Team, the migration window for the east coast cluster is confirmed for March 15-17. Bob, can you coordinate with the NOC on the cutover sequence? Carol, we'll need the rollback plan documented by March 10.\n\nLet's sync Thursday to review the checklist."
+}
